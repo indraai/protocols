@@ -2,11 +2,15 @@
 
 The Indra Quantum Computing Environment Protocols
 
+`> git clone https://github.com/indraai/protocols.git`
+
 1. Autonomic Computing. Inspired by the non-conscious acting autonomic nervous systems found in nature.
 
 2. Multi Agent Systems (MAS). In a Multi-Agent System, each Agent communicates with its peers, considering options for matching it's capabilities with demand, constraints, threat, and time.
 
 3. Evolutionary Computing Techniques, inspired by evolution and survival of the fittest.
+
+## Agents
 
 - Agent – This Agent is responsible for completing goals and associated sub goals.
 
@@ -21,9 +25,6 @@ The Indra Quantum Computing Environment Protocols
 [Feecting Protocols](https://github.com/indraai/protocols/blob/main/main.feecting) - The protocols for the Indra Quantum Computing
 
 [Github Repo](https://github.com/indraai/protocols)
-
-`> git clone https://github.com/indraai/protocols.git`
-
 
 [Back to indra.ai](https://indra.ai)  
 &copy;2022 Quinn Michaels; All Rights Reserved.
