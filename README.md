@@ -2,9 +2,11 @@
 
 The Indra Quantum Computing Environment Protocols
 
-`> git clone https://github.com/indraai/protocols.git`
+Access the instructions from the deva.world interface.  
+`$ #feecting get https://indra.ai/protocols/main.feecting`
 
-[Feecting Protocols](https://github.com/indraai/protocols/blob/main/main.feecting) - The Feecting Protocols for the Indra Quantum Computing Environment
+Clone the repository to your machine or server.  
+`> git clone https://github.com/indraai/protocols.git`
 
 [Github Repo](https://github.com/indraai/protocols) - The source code repository for the protocols.
 
