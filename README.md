@@ -8,8 +8,6 @@ Access the instructions from the deva.world interface.
 Clone the repository to your machine or server.  
 `> git clone https://github.com/indraai/protocols.git`
 
-[Github Repo](https://github.com/indraai/protocols) - The source code repository for the protocols.
-
 ## summary
 
 As the Internet grows in Complexity so too does the degree to which Humans depend on it. Already many Critical National Infrastructures depend on networks of sophisticated computer systems.
@@ -48,5 +46,6 @@ This will correspond to a new Emergent Intelligence which manifests itself acros
 
 ---
 
+[Github Repo](https://github.com/indraai/protocols)  
 [Back to indra.ai](https://indra.ai)  
 &copy;2022 Quinn Michaels; All Rights Reserved.
