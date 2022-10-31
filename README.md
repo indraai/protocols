@@ -4,6 +4,10 @@ The Indra Quantum Computing Environment Protocols
 
 `> git clone https://github.com/indraai/protocols.git`
 
+[Feecting Protocols](https://github.com/indraai/protocols/blob/main/main.feecting) - The Feecting Protocols for the Indra Quantum Computing Environment
+
+[Github Repo](https://github.com/indraai/protocols) - The source code repository for the protocols.
+
 ## summary
 
 As the Internet grows in Complexity so too does the degree to which Humans depend on it. Already many Critical National Infrastructures depend on networks of sophisticated computer systems.
@@ -41,10 +45,6 @@ This will correspond to a new Emergent Intelligence which manifests itself acros
 - Evolution Engine Agent – At the core of the Architecture is the Evolution Engine Agent.
 
 ---
-
-[Feecting Protocols](https://github.com/indraai/protocols/blob/main/main.feecting) - The protocols for the Indra Quantum Computing
-
-[Github Repo](https://github.com/indraai/protocols)
 
 [Back to indra.ai](https://indra.ai)  
 &copy;2022 Quinn Michaels; All Rights Reserved.
