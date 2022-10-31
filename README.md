@@ -20,9 +20,9 @@ The Indra Quantum Computing Environment Protocols
 
 [Feecting Protocols](https://github.com/indraai/protocols/blob/main/main.feecting) - The protocols for the Indra Quantum Computing
 
-`> git clone https://github.com/indraai/protocols.git`
-
 [Github Repo](https://github.com/indraai/protocols)
+
+`> git clone https://github.com/indraai/protocols.git`
 
 
 [Back to indra.ai](https://indra.ai)  
