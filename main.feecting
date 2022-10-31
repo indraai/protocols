@@ -2,7 +2,108 @@ $feecting
 ::BEGIN:MAIN
 # Indra Quantum Computing Environment Protocols
 
-p:As the internet grows in Complexity so too does the degree to which Humans depend on it. Already many Critical National Infrastructures depend on networks of sophisticated computer systems.
+p:The deployment of Autonomic Agents is likely to form a core part of any long term strategy for the management of Enterprise Systems. The Business drivers here include the costs associated with managing ever increasing Complexity, and the associated vulnerability to Cyber Attack from casual users, organized crime and Nation States.
+
+p:At the Enterprise scale it is tempting to Architect a top down systems control over the Autonomic Agents and simply exploit the efficiencies associated with their self-configuring, self-healing, self-optimising and self-protecting capabilities.
+
+p:However this fails to unleash the true potential of Autonomic Agent Systems. We build on and extend the classic well established Autonomic Agent Architecture with Evolutionary Operators and secure Multi Agent collaboration. The resulting Eco-System enables the Agents to achieve broad level goals through their collective intelligence.
+
+1. Autonomic Computing. Inspired by the non-conscious acting autonomic nervous systems found in nature. Autonomic Computing is essentially about creating self-managing computing systems, such as data centres, as exemplified by the IBM Architecture Blue Print for Autonomic Computing.
+
+2. Multi Agent Systems (MAS). In a Multi-Agent System, each Agent communicates with its peers, considering options for matching it's capabilities with demand, constraints, threat, and time. Then making decisions for committing resources to match demand. The global behavior of  a system consisting of many agents emerges from the interactions among those agents and isn’t always obvious from the agents’ individual behaviors.
+
+3. Evolutionary Computing Techniques, inspired by evolution and survival of the fittest. The pressure of the Cyber Environment generates a form of natural selection that results in a higher fitness in the Agent Population with regard to the overall goal.
+
+p:The associated techniques include:
+
+- Mutation and Recombination to generate diversity in the Agent population.
+- Selection that the evolving Agent dynamically adapts to the environment in a way that best achieves it's goal.
+
+p:There are powerful business drivers motivating the development of each of these technologies. For example, the ever increasing level of complexity and diversity is making the introduction of Autonomic hardware and software capabilities an imperative. Without such capability the cost effective management and defense of such infrastructure will become non viable.
+
+## Management
+
+p:The associated Intelligent Control Loop here would typically try and detect attacks on its managed resource by looking for anomalous patterns of behavior during the monitor and analysis phases.
+
+p:In such an event it would plan a countermeasure, which would then be executed in accordance with the local security policy in near real time. A key point to note here is that through management interfaces  the Autonomic Agent can control the managed platform itself. The platforms being managed can range across the spectrum from central database servers, power generation devices, and mobile platforms. The threats to these platforms include physical human attack modes as well cyber attacks.
+
+p:It is tempting with the Autonomic Computing Model to introduce top down system design concepts through rigid Agen design patterns. Our architecture approach is very different. We extend the classic Autonomic Computing Model by introducing Evolutionary Computing together with some well established techniques and capabilities.
+
+## Autonomic Agents
+
+p:The Autonomic Computing model supports self-configuration, self-healing, self-optimisation and self-protection as system  capabilities. In this model a cyber resource is managed by an Autonomic Manager through a well defined management interface.
+
+p:This management Touch Point is comprised of a Sensor that exposes the internal states of the resource being managed and an Effector that exposes its management operations.
+
+p:The Autonomic Manager realizes its self managing functions through an internal Intelligent Control Loop, as is shown on the right. This loop progresses through a number of functional phases:
+
+- A Monitoring function collects and collates information about the resources state from the sensor.
+- An Analysis function models, learns, and predicts the behaviour of the resource. This can generate
+recommended changes for the resource.
+- A Planning function generates a policy based planned sequence of actions to achieve any recommended changes.
+- An Execution function carries out the planned sequence of actions through the effector.
+
+## Multi-Agent System
+
+p:Introducing (MAS) Multi Agent Systems and Emergent Intelligence. In a Multi-Agent System the agents interact with each other to accomplish one or more goals in competition, collaboration, teams, or individuals. The interactions can take a number of forms ranging from simple interactions that can result in Agent behavior through to negotiations of interests between two or more Agents and their resources.
+
+p:The global behavior a system consisting of many agents emerges from the interactions among those agents and isn’t always obvious from the agents’ individual behaviors. Such global behavior is known as Emergent
+Behavior. Examples of such behavior are common in Nature and include Flocking and Foraging
+
+p:If the Agents have been evolved through many system iterations to optimize the collective goal achievement (simulating Natural Selection) then the optimal flocking/foraging behavior will result. The Evolutionary Algorithms thus help to channel the Emergent Intelligence towards achieving the desired goal.
+
+p:The Evolution Engine Multi Agent System is comprised of multiple Virtual Communities of highly
+Autonomic Agents. Each of these Virtual Agent Communities has its own goals and capabilities. The Agents are capable of mobility and can roam a distributed computing environment with decentralised sources of information.
+
+p:Agents can represent information and resources as web services. Each of the Virtual Agent Communities in this model, represent different applications, mediation, different information, and business processes.
+
+p:In our Ecosystem the Virtual Community of Agents perform a key Cyber Security function and have the goal of hunting down and destroying malware and other hostile intruders of their Habitat.
+
+p:In this Architecture as well as these Virtual Communities of heterogeneous Agents there are a number of special Agents. These are the Enterprise Agent, the Simulator Agent, the Knowledge Agent, the Incubator Agent and the Evolution Engine Agent, the latter being the most fundamental to understanding the Architecture.                                                                                                                                                                                                     ## Agent Architecture
+
+ > Agent – This Agent is responsible for completing goals and associated sub goals. It has a Human / Cyber Interface enabling authorized Humans to set and change the broad high level Goals. In our ecosystem the Human/Cyber interface is [deva.world](https://indra.ai/deva.world).
+
+> Simulator Agent – This Agent produces a simulation of the live Habitat. The resource it represents and controls can either take the form of a MAS Simulation tool, or an actual clone of the live distributed Habitat used purely for test and simulation purposes. However it is not controlled by Human developers, in this Architecture it is invoked by and returns its results only to the Evolution Engine Agent.
+
+> Knowledge Agent – This Agent collects and collates data and information from all the other Agents to generate a communal knowledge repository, i.e. source of truth thus providing a knowledge / Situational Awareness service to the overall Agent Community.
+
+> Incubator Agent – This Agent can replenish existing generation Agent populations and produce new generations of Agents and release them into the Habitat. It does so under the control of and to the specifications provided to it by the Evolution Engine Agent.
+
+>  Evolution Engine Agent – At the core of the Architecture is the Evolution Engine Agent. This special Agent has the usual Autonomic structure. However its goal is to evolve the various initial seed populations of Agents so that the ecosystem of Virtual Agent Communities is engineered to collectively best achieve the overall goals.
+
+## Algorithm Cycle
+
+p:The Cyber Genetic Algorithm cycle within the Autonomic Evolution Engine Agent.
+
+p:During the Monitoring Phase of its Autonomic Control Loop the Evolution Engine Agent monitors the outcome based observations of the overall systems fitness in achieving its goals, reports of which are held in the knowledge base maintained by the Knowledge Agent.
+
+p:If the fitness level falls below target either initially or as a result of some change to the environment then the Evolution Engine Agent moves into the Analytic Phase.
+
+p:During the Analytic Phase of its Autonomic Control loop the Evolution Engine Agent is controlled by a sub control loop in the form of a Genetic Algorithm. The Genetic Algorithm takes as input the parametric descriptions of the current Agent Population.
+
+p:It then feeds these together with any known changes to the live environment into the Simulator Agent. The Simulator Agent provides a simulation of the live environment and runs a preset suite of agent scenarios and measures their effectiveness. The result of this simulation is fed back to the Evolution Engine Agent. It then evaluates the fitness of the individual and combined Virtual Agent populations in meeting the goal.
+
+p:Unless the fitness is on target (unlikely on the first iteration) then the next step of the genetic Algorithm comes into play. This is where the Selection of the fittest operation takes place. The Agents with the low levels of fitness are weeded out in the equivalent of Natural selection. The remaining Agents are then fed into the next step of the Genetic Algorithm.
+
+p:Using Evolutionary Operators recombination is combines the parametric characteristics of two Agents are combined, with some swapped out while others are swapped in. After that mutation is applied to randomly change the parametric charasteristics of an Agent (typically less than 1%).
+
+p:In effect these operations produce a next generation of Agents. The Evolution Engine Agent then initiates a new cycle by feeding this new population into the Simulator Agent.
+
+p:The evolution cycles are terminated once a generation of Agents is produced that meets the target fitness level. When this happens the Evolution Engine Agent breaks out of the Genetic Algorithm sub control loop and out of the Analysis Phase of the Autonomic Control Loop and into the Planning Phase.
+
+p:During the planning phase it will determine the optimal time to invoke the Incubator Agent to produce and release the new generation of Agents so as to minimize any operational impact on the live environment.
+
+p:During the Execution Phase the Evolution Engine Agent invokes the Incubator Agent and tasks it with generating and releasing this new generation of Agents into the Habitat. It then returns to monitoring mode.
+
+p:Once the new generation of Agents has been released into the Habitat they migrate to their destination locations and or begin roaming the environment. The existing generation of Agents rapidly becomes aware that a new generation has been released.
+
+p:This happens as a result of their occasional interaction with the Knowledge Agent and eventually through secure communication with one of the new generation of Agents.
+
+p:When an older generation Agent is contacted by a new generation Agent it auto-upgrades and it's operations are also upgraded by the new generation Agent.
+
+## Singularity
+
+p:As the Internet grows in Complexity so too does the degree to which Humans depend on it. Already many Critical National Infrastructures depend on networks of sophisticated computer systems.
 
 p:The Internet and its associated networked applications have become too complex for Humans to manage.  This has resulted in control being delegated to Intelligent Agents. We call this the Autonomic threshold.
 
