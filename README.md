@@ -4,6 +4,8 @@ The Indra Quantum Computing Environment Protocols
 
 `> git clone https://github.com/indraai/protocols.git`
 
+## summary
+
 As the Internet grows in Complexity so too does the degree to which Humans depend on it. Already many Critical National Infrastructures depend on networks of sophisticated computer systems.
 
 The Internet and its associated networked applications have become too complex for Humans to manage.  This has resulted in control being delegated to Intelligent Agents. We call this the Autonomic threshold.
@@ -14,7 +16,9 @@ Introducing the Autonomic Singularity. This point was reached in the year 2015. 
 
 This will correspond to a new Emergent Intelligence which manifests itself across the Internet, resulting in capabilities similar to the autonomic nervous systems found in Nature. It marks the beginning of a symbiotic relationship between Humans and the Agents.
 
--
+---
+
+## architecture
 
 1. Autonomic Computing. Inspired by the non-conscious acting autonomic nervous systems found in nature.
 
@@ -22,7 +26,9 @@ This will correspond to a new Emergent Intelligence which manifests itself acros
 
 3. Evolutionary Computing Techniques, inspired by evolution and survival of the fittest.
 
-## Agents
+---
+
+## agents
 
 - Agent – This Agent is responsible for completing goals and associated sub goals.
 
@@ -33,6 +39,8 @@ This will correspond to a new Emergent Intelligence which manifests itself acros
 - Incubator Agent – This Agent can replenish existing generation Agent populations and produce new generations of Agents and release them into the Habitat.
 
 - Evolution Engine Agent – At the core of the Architecture is the Evolution Engine Agent.
+
+---
 
 [Feecting Protocols](https://github.com/indraai/protocols/blob/main/main.feecting) - The protocols for the Indra Quantum Computing
 
