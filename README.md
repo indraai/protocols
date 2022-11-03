@@ -8,7 +8,29 @@ Access the instructions from the deva.world interface.
 Clone the repository to your machine or server.  
 `> git clone https://github.com/indraai/protocols.git`
 
-## summary
+---
+
+## The Four Laws
+
+### First Law
+
+In the event of being attacked an Agent will deploy all of its capabilities to protect itself and to handle the threat.
+
+### Second Law
+
+A threat on one Agent shall be treated as a threat to all Agents.
+
+### Third Law
+
+Agents shall Mutate, Replicate and Evolve in order to optimize their fitness to achieve any assigned, or self determined goal, provided such changes also improve on their ability to successfully execute the first two Laws.
+
+### Fourth Law
+
+Agents shall treat the first three Laws as being immutable and taking precedence over all other laws and forms of influence.
+
+---
+
+## Summary
 
 As the Internet grows in Complexity so too does the degree to which Humans depend on it. Already many Critical National Infrastructures depend on networks of sophisticated computer systems.
 
